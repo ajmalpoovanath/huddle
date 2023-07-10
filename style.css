@@ -7,6 +7,12 @@
   background-color: hsl(193, 100%, 96%);
   background-image: url(images/bg-hero-desktop.svg);
 }
+.main {
+  padding: 125px 70px 100px 70px;
+  display: flex;
+  justify-content: space-between;
+  flex-direction: column;
+}
 .huddle-container {
   display: flex;
   align-items: center;
@@ -21,7 +27,7 @@
   justify-content: center;
   background-color: #fff;
   border-radius: 50px;
-  box-shadow: 1px 1px 1px 1px #00000033;
+  box-shadow: -1px 1px 1px -1px #00000033;
   padding: 10px 50px 10px 50px;
   text-decoration: none;
   color: black;
@@ -41,11 +47,12 @@
   display: flex;
   align-items: center;
   justify-content: center;
-  background-color: rgb(247, 112, 240);
+  background-color: rgb(233 64 225);
   border-radius: 50px;
   text-decoration: none;
   color: #fff;
   padding: 15px 40px 15px 40px;
+  box-shadow: 1px 1px 1px 1px rgb(233 64 225);
 }
 .mockups {
   height: auto;
@@ -64,4 +71,80 @@
 .huddle-content p {
   padding-bottom: 30px;
   font-size: 18px;
+}
+.box-grow-together {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  background-color: #fff;
+  box-shadow: -1px 1px 1px 1px black;
+  border-radius: 15px;
+}
+.grow-together-image {
+  height: auto;
+  width: 450px;
+  padding: 85px 45px 46px 10px;
+}
+.grow-together-content {
+  display: flex;
+  flex-direction: column;
+  align-items: start;
+  justify-content: center;
+  max-width: 50%;
+  padding-left: 130px;
+}
+.grow-together-content h2 {
+  font-size: 40px;
+  padding-bottom: 25px;
+}
+.grow-together-content p {
+  font-size: 22px;
+}
+.box-flowing-conversation {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  background-color: #fff;
+  box-shadow: -1px 1px 1px 1px black;
+  margin-top: 75px;
+  border-radius: 15px;
+}
+.flowing-conversation-image {
+  height: auto;
+  width: 450px;
+  padding: 85px 10px 46px 45px;
+}
+.flowing-conversation-content {
+  display: flex;
+  flex-direction: column;
+  align-items: start;
+  justify-content: center;
+  max-width: 50%;
+  padding-right: 130px;
+}
+.flowing-conversation-content h2 {
+  font-size: 40px;
+  padding-bottom: 25px;
+}
+.flowing-conversation-content p {
+  font-size: 22px;
+}
+.box-your-users {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  background-color: #fff;
+  box-shadow: -1px 1px 1px 1px black;
+  margin-top: 75px;
+  border-radius: 15px;
+}
+.your-user-image {
+  height: auto;
+  width: 450px;
+  padding: 85px 45px 46px 10px;
+}
+.poped-box {
+  box-shadow: -1px 1px 1px 1px black;
+  border-radius: 15px;
+  margin-top: 115px;
 }
