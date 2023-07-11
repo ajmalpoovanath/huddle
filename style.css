@@ -16,16 +16,20 @@ a {
   padding: 0;
   box-sizing: border-box;
 }
-.header {
+header {
   background-color: hsl(193, 100%, 96%);
   background-image: url(images/bg-hero-desktop.svg);
 }
-.main {
+main {
   padding: 125px 70px 100px 70px;
   display: flex;
   align-items: center;
   justify-content: space-between;
   flex-direction: column;
+}
+footer {
+  background-color: hsl(192, 100%, 9%);
+  color: white;
 }
 .huddle-container {
   display: flex;
@@ -196,4 +200,21 @@ a {
 .poped-box-content h2 {
   font-size: 40px;
   padding-bottom: 25px;
+}
+.logo-white,
+.icon-facebook,
+.icon-twiter,
+.icon-instagram,
+.icon-copyright {
+  filter: invert(100%) sepia(25%) saturate(39%) hue-rotate(27deg)
+    brightness(109%) contrast(111%);
+}
+.logo-white {
+  padding: 90px 10px 30px 110px;
+}
+.footer-container {
+  display: flex;
+  align-items: start;
+  justify-content: space-between;
+  padding-left: 110px; /*change it when ready*/
 }
