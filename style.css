@@ -185,6 +185,8 @@ footer {
   align-items: center;
   justify-content: center;
   padding: 80px 175px 60px 175px;
+  margin-bottom: -200px;
+  background-color: #fff;
 }
 .community-build-button {
   display: flex;
@@ -210,7 +212,7 @@ footer {
     brightness(109%) contrast(111%);
 }
 .logo-white {
-  padding: 90px 10px 30px 110px;
+  padding: 200px 10px 30px 110px;
 }
 .footer-container {
   display: flex;
