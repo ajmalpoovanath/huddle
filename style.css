@@ -15,6 +15,7 @@ a {
   margin: 0;
   padding: 0;
   box-sizing: border-box;
+  scroll-behavior: smooth;
 }
 header {
   background-color: hsl(193, 100%, 96%);
@@ -95,12 +96,12 @@ footer {
   padding-bottom: 30px;
   font-size: 18px;
 }
-.box-grow-together {
+.box {
   display: flex;
   align-items: center;
   justify-content: space-between;
   background-color: #fff;
-  box-shadow: 1px 1px 10px rgb(212, 211, 211);
+  box-shadow: 1px 1px 12px rgba(212, 211, 211, 0.5);
   border-radius: 15px;
 }
 .grow-together-image {
@@ -124,13 +125,7 @@ footer {
   font-size: 22px;
 }
 .box-flowing-conversation {
-  display: flex;
-  align-items: center;
-  justify-content: space-between;
-  background-color: #fff;
-  box-shadow: 1px 1px 10px rgb(212, 211, 211);
   margin-top: 75px;
-  border-radius: 15px;
 }
 .flowing-conversation-image {
   height: auto;
@@ -153,13 +148,7 @@ footer {
   font-size: 22px;
 }
 .box-your-users {
-  display: flex;
-  align-items: center;
-  justify-content: space-between;
-  background-color: #fff;
-  box-shadow: 1px 1px 10px rgb(212, 211, 211);
   margin-top: 75px;
-  border-radius: 15px;
 }
 .your-user-image {
   height: auto;
