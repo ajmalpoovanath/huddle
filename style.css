@@ -82,8 +82,12 @@ main {
   padding: 125px 70px 100px 70px;
   display: flex;
   align-items: center;
-  justify-content: space-between;
   flex-direction: column;
+}
+.main-container {
+  display: flex;
+  flex-direction: column;
+  gap: 40px;
 }
 .box {
   display: flex;
@@ -92,72 +96,26 @@ main {
   background-color: #fff;
   box-shadow: 1px 1px 12px rgba(212, 211, 211, 0.5);
   border-radius: 15px;
+  padding: 85px 18px 46px 114px;
 }
-.grow-together-content {
+.main-content {
   display: flex;
   flex-direction: column;
   align-items: start;
-  justify-content: center;
+  gap: 10px;
   max-width: 50%;
-  padding-left: 130px;
+  flex: 2;
 }
-.grow-together-content h2 {
-  font-size: 40px;
-  padding-bottom: 25px;
+.main-content h2 {
+  font-size: 28px;
 }
-.grow-together-content p {
-  font-size: 22px;
+.main-content p {
+  font-size: 18px;
+  color: #5a5a5a;
 }
-.grow-together-image {
+.main-image {
   height: auto;
   width: 450px;
-  padding: 85px 45px 46px 10px;
-}
-.box-flowing-conversation {
-  margin-top: 75px;
-}
-.flowing-conversation-image {
-  height: auto;
-  width: 450px;
-  padding: 85px 10px 46px 45px;
-}
-.flowing-conversation-content {
-  display: flex;
-  flex-direction: column;
-  align-items: start;
-  justify-content: center;
-  max-width: 50%;
-  padding-right: 130px;
-}
-.flowing-conversation-content h2 {
-  font-size: 40px;
-  padding-bottom: 25px;
-}
-.flowing-conversation-content p {
-  font-size: 22px;
-}
-.box-your-users {
-  margin-top: 75px;
-}
-.your-user-content {
-  display: flex;
-  flex-direction: column;
-  align-items: start;
-  justify-content: center;
-  max-width: 50%;
-  padding-left: 130px;
-}
-.your-user-content h2 {
-  font-size: 40px;
-  padding-bottom: 25px;
-}
-.your-user-content p {
-  font-size: 22px;
-}
-.your-user-image {
-  height: auto;
-  width: 450px;
-  padding: 85px 45px 46px 10px;
 }
 .poped-box {
   box-shadow: 1px 1px 10px rgb(212, 211, 211);
@@ -171,7 +129,7 @@ main {
   margin-bottom: -200px;
   background-color: #fff;
 }
-.poped-box-content {
+.poped-box-content h2 {
   font-size: 40px;
   padding-bottom: 25px;
 }
@@ -266,4 +224,8 @@ footer {
 }
 .footer-copyright {
   align-self: self-end;
+}
+.icon-copyright {
+  height: auto;
+  width: 15px;
 }
