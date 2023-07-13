@@ -7,10 +7,6 @@ body {
   font-family: "Open Sans", sans-serif;
   font-weight: 400;
 }
-a {
-  font-family: "Open Sans", sans-serif;
-  font-weight: 700;
-}
 * {
   margin: 0;
   padding: 0;
@@ -18,7 +14,7 @@ a {
   scroll-behavior: smooth;
 }
 header {
-  background-color: hsl(193, 100%, 96%);
+  background-color: rgb(235, 251, 255);
   background-image: url(images/bg-hero-desktop.svg);
 }
 .header-initial {
@@ -26,28 +22,40 @@ header {
   align-items: center;
   justify-content: space-between;
   max-width: 100%;
-  padding: 30px 70px 30px 70px;
+  padding: 30px 70px;
 }
 .huddle-logo {
   height: auto;
   width: 175px;
 }
+.trial-button {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: rgb(255, 82, 191);
+  border-radius: 50px;
+  text-decoration: none;
+  color: rgb(255, 255, 255);
+  padding: 15px 40px;
+  transition: 200ms;
+}
 .try-button {
   display: flex;
   align-items: center;
   justify-content: center;
-  background-color: #fff;
+  background-color: rgb(255, 255, 255);
   border-radius: 50px;
-  box-shadow: -1px 1px 1px -1px #00000033;
-  padding: 10px 50px 10px 50px;
+  box-shadow: -1px 1px 1px -1px rgba(0, 0, 0, 0.2);
+  padding: 10px 50px;
   text-decoration: none;
-  color: black;
+  color: rgb(0, 0, 0);
+  transition: 200ms;
 }
 .header-final {
   display: flex;
   align-items: center;
   justify-content: space-between;
-  padding: 30px 70px 30px 70px;
+  padding: 30px 70px;
   gap: 58px;
 }
 .header-content {
@@ -67,23 +75,12 @@ header {
 .header-content p {
   font-size: 18px;
 }
-.get-started-button {
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  background-color: rgb(233 64 225);
-  border-radius: 50px;
-  text-decoration: none;
-  color: #fff;
-  padding: 15px 40px 15px 40px;
-  box-shadow: 1px 1px 1px 1px rgb(233 64 225);
-}
 .mockups {
   height: auto;
   width: 675px;
 }
 main {
-  padding: 125px 70px 100px 70px;
+  padding: 125px 70px;
   display: flex;
   align-items: center;
   flex-direction: column;
@@ -97,7 +94,7 @@ main {
   display: flex;
   align-items: center;
   justify-content: space-between;
-  background-color: #fff;
+  background-color: rgb(255, 255, 255);
   box-shadow: 1px 1px 12px rgba(212, 211, 211, 0.5);
   border-radius: 15px;
   padding: 85px 18px 46px 114px;
@@ -115,7 +112,7 @@ main {
 }
 .main-content p {
   font-size: 18px;
-  color: #5a5a5a;
+  color: rgb(90, 90, 90);
 }
 .main-image {
   height: auto;
@@ -131,27 +128,15 @@ main {
   justify-content: center;
   padding: 80px 175px 60px 175px;
   margin-bottom: -200px;
-  background-color: #fff;
+  background-color: rgb(255, 255, 255);
   gap: 25px;
 }
 .poped-box-content h2 {
-  font-size: 38px;
-}
-.community-build-button {
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  text-decoration: none;
-  background-color: rgb(233 64 225);
-  border-radius: 50px;
-  color: #fff;
-  padding: 30px 100px 30px 100px;
-  font-weight: bolder;
-  font-size: 18px;
+  font-size: 30px;
 }
 footer {
   background-color: hsl(192, 100%, 9%);
-  color: white;
+  color: rgb(255, 255, 255);
   display: flex;
   padding: 200px 0 80px 0;
   justify-content: space-around;
@@ -186,51 +171,58 @@ footer {
   align-items: center;
   gap: 10px;
   text-decoration: none;
-  color: white;
+  color: rgb(255, 255, 255);
 
   font-weight: 400;
 }
-.footer-initial a img {
+.footer-initial img {
   width: 15px;
   height: auto;
-}
-.footer-contact {
-  display: flex;
-  flex-direction: column;
-  gap: 10px;
 }
 .footer-final {
   display: flex;
   gap: 100px;
   flex: 2;
 }
+.footer-contacts {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
 .footer-links {
   display: flex;
   flex-direction: column;
   gap: 10px;
+}
+.links {
+  color: rgb(255, 255, 255);
+  text-decoration: none;
 }
 .social-media {
   display: flex;
   align-items: start;
   gap: 10px;
 }
-.icon-facebook,
-.icon-twiter,
-.icon-instagram,
-.icon-copyright {
+.social {
   filter: invert(100%) sepia(25%) saturate(39%) hue-rotate(27deg)
     brightness(109%) contrast(111%);
-}
-.icon-facebook,
-.icon-twiter,
-.icon-instagram {
   height: auto;
   width: 40px;
 }
 .footer-copyright {
   align-self: self-end;
+  user-select: none;
 }
-.icon-copyright {
-  height: auto;
-  width: 15px;
+.trial-button:hover {
+  background-color: rgb(251, 119, 203);
+}
+.try-button:hover {
+  background-color: rgb(250, 250, 250);
+}
+.links:hover {
+  text-decoration: underline;
+}
+.social:hover {
+  filter: invert(68%) sepia(69%) saturate(5200%) hue-rotate(294deg)
+    brightness(100%) contrast(105%);
 }
