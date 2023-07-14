@@ -95,6 +95,9 @@ main {
   border-radius: 15px;
   padding: 85px 18px 46px 114px;
 }
+.box:nth-child(2) {
+  flex-direction: row-reverse;
+}
 .main-content {
   display: flex;
   flex-direction: column;
@@ -122,7 +125,7 @@ main {
   flex-direction: column;
   align-items: center;
   justify-content: center;
-  padding: 80px 175px 60px 175px;
+  padding: 80px 175px;
   margin-bottom: -200px;
   background-color: rgb(255, 255, 255);
   gap: 25px;
@@ -194,6 +197,10 @@ footer {
   color: rgb(255, 255, 255);
   text-decoration: none;
 }
+.contact-links {
+  display: flex;
+  gap: 100px;
+}
 .social-media {
   display: flex;
   align-items: start;
@@ -247,5 +254,68 @@ footer {
   }
   .try-button {
     font-size: 12px;
+  }
+}
+@media (max-width: 768px) {
+  header {
+    background-image: url(images/bg-hero-mobile.svg);
+  }
+  .header-final {
+    flex-direction: column;
+  }
+  .header-content {
+    align-items: center;
+  }
+  .trial-button {
+    font-size: 18px;
+    padding: 15px 54px;
+  }
+  .trial-button:nth-child(2) {
+    font-size: 12px;
+    padding: 14px 38px;
+  }
+  .header-content h1 {
+    font-size: 46px;
+    text-align: center;
+  }
+  .header-content p {
+    font-size: 18px;
+    text-align: center;
+  }
+  .mockups {
+    width: 58%;
+  }
+  .box {
+    padding: 78px 32px;
+  }
+  .main-content p {
+    font-size: 12px;
+  }
+  .poped-box-content h2 {
+    font-size: 16px;
+  }
+  .poped-box {
+    padding: 58px 138px;
+  }
+  .footer-content {
+    flex-direction: column;
+    gap: 58px;
+  }
+  .footer-final {
+    flex-direction: column;
+    gap: 58px;
+  }
+  .contact-links {
+    flex-direction: column;
+    gap: 8px;
+  }
+  .social-media {
+    justify-content: center;
+  }
+  .footer-copyright {
+    align-self: center;
+  }
+  footer {
+    padding: 200px 0 38px 0;
   }
 }
