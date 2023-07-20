@@ -12,4 +12,4 @@
 **Live link - https://huddle-3gy.pages.dev/**
 
 - _It is responsive on almost all devices_
-- \_Design of the website and images used in is provided by [Frontend Mentor](https://www.frontendmentor.io/)
+- _Design of the website and images used in is provided by_ [Frontend Mentor](https://www.frontendmentor.io/)
